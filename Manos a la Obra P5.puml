@@ -1,0 +1,7 @@
+@startuml
+class Entidades.Dni
+class Entidades.Persona
+class manos.a.la.obra.p4.ManosALaObraP4
+manos.a.la.obra.p4.ManosALaObraP4 ..> Entidades.Dni
+manos.a.la.obra.p4.ManosALaObraP4 ..> Entidades.Persona
+@enduml
